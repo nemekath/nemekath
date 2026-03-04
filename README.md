@@ -12,7 +12,6 @@ Outside of work I explore GPU kernel optimization, Rust, and AI-assisted develop
 
 - **[kuzco.cpp](https://github.com/nemekath/kuzco.cpp)** -- Custom GEMV kernels for AMD RDNA3 GPUs. +10-36% token generation throughput for quantized LLM inference. Independent llama.cpp fork with 17 quant types validated across 26 models. [Release v1.0.0](https://github.com/nemekath/kuzco.cpp/releases/tag/v1.0.0)
 - **[claude-config-broker](https://github.com/nemekath/claude-config-broker)** -- PowerShell daemon that prevents `.claude.json` corruption from concurrent Claude Code sessions. Named Mutex locking + JSON deep-merge + atomic writes.
-- **[TSSN](https://github.com/nemekath/TSSN)** -- TypeScript-Style Schema Notation. A compact format for representing database schemas in LLM contexts, achieving ~40-60% token reduction vs JSON Schema.
 
 
 
