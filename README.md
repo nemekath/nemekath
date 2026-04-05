@@ -10,7 +10,7 @@ Outside of work I explore GPU kernel optimization, Rust, and AI-assisted develop
 
 ## Recent public work
 
-- **[kuzco.cpp](https://github.com/nemekath/kuzco.cpp)** -- Custom GEMV kernels for AMD RDNA3 GPUs. +10-36% token generation throughput for quantized LLM inference. Independent llama.cpp fork with 17+ quant types validated across 26+ models.
+
 - **[claude-config-broker](https://github.com/nemekath/claude-config-broker)** -- PowerShell daemon that prevents `.claude.json` corruption from concurrent Claude Code sessions. Named Mutex locking + JSON deep-merge + atomic writes.
 
 
@@ -19,6 +19,7 @@ Outside of work I explore GPU kernel optimization, Rust, and AI-assisted develop
 
 Things I've been building but haven't open-sourced yet:
 
+-  Custom Interference Engine for AMD RDNA3 GPUs. +10-36% token generation throughput for quantized LLM inference. llama.cpp based.
 - A **C# migration pipeline** (Clean Architecture, Producer/Consumer pattern, COM Interop with STA threading) processing thousands of documents per hour with checkpoint-based resume
 - A **reconciliation and monitoring system** with Bayesian confidence scoring, bidirectional matching across SQL Server and file systems, and a live dashboard -- backed by 30+ Architecture Decision Records
 - A **documentation crawler** that parses proprietary TOC formats and exports to LLM/RAG-ready chunks
