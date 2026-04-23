@@ -4,7 +4,7 @@
 
 ## What I do
 
-I work at the intersection of legacy enterprise systems and modern tooling. By day I manage ECM platforms, high-availability storage, and ERP archiving integrations handling hundreds of millions of documents. I build the tooling that makes these systems manageable -- automating migrations, validating compliance, and keeping complex multi-domain environments running.
+I work at the intersection of legacy enterprise systems and modern tooling. By day I manage ECM platforms, high-availability storage, and ERP archiving integrations handling millions of documents. I build the tooling that makes these systems manageable -- automating migrations, validating compliance, and keeping complex multi-domain environments running.
 
 Outside of work I explore GPU kernel optimization, Rust, and AI-assisted development workflows.
 
